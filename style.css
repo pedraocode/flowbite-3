@@ -1,0 +1,179 @@
+img {
+    max-width: 32px;
+}
+.menor {
+    max-width: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+svg {
+    max-width: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+background-color: rgb(31, 42, 56);
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+p {
+   color: rgb(157, 164, 176);
+   font-size: 1.125rem;
+   font-weight: 400;
+   margin-top: -15px;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 700;
+}
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+.caixa {
+    max-width: 636.5px;
+margin-bottom: 100px;
+cursor: pointer;
+}
+
+
+.a {
+color: rgb(62, 130, 247);
+}
+.b {
+    color: rgb(146, 97, 250);
+}
+.c {
+    color: rgb(7, 150, 163);
+}
+.d {
+    color: rgb(7, 150, 163);
+}
+.e {
+    color: rgb(14, 163, 232);
+}
+.f {
+   color:  rgb(14, 158, 110);
+}
+.g {
+    color: rgb(62, 130, 247);
+}
+.h {
+    color: rgb(232, 70, 148);
+}
+.i {
+    color: rgb(62, 130, 247);
+}
+
+
+
+
+.r {
+    color: rgb(62, 130, 247);
+}
+.q {
+    color: rgb(146, 97, 250);
+}
+.p {
+    color: rgb(7, 150, 163);
+}
+.o {
+    color: rgb(7, 150, 163);
+}
+.n {
+    color: rgb(14, 163, 232);
+}
+.m {
+    color:  rgb(14, 158, 110);
+}
+.l {
+    color: rgb(62, 130, 247);
+}
+.k {
+    color: rgb(232, 70, 148);
+}
+.j {
+    color: rgb(62, 130, 247);
+}
+.caixas {
+    display: flex; 
+    justify-content: space-evenly;
+}
+.caixa2 {
+    max-width: 636.5px;
+margin-left: 100px;
+}
+.centro {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.caixas2 {
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+@media (max-width: 768px) {
+    .caixas, .caixas2 {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .caixa, .caixa2 {
+        width: 100%;
+        padding: 0;
+        margin-left: 10px;
+    }
+    p, h3, h1 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+    h1,  .ka {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 1035px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    p, h3 {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 935px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+    p, h3 {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 835px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+    p, h3 {
+        font-size: 0.95rem;
+    }
+    .caixa {
+        width: 95%;
+    }
+}
+@media (max-width: 735px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    p, h3 {
+        font-size: 0.9rem;
+    }
+    .caixa {
+        width: 90%;
+    }
+}
